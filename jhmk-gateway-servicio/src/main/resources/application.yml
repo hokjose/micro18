@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jhmk-gateway-servicio
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://jose:miriam@localhost:7070
+
